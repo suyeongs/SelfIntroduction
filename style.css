@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #B8E8F8;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.flower-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* background-color: gray; */
+    width: 600px;
+    height: 600px;
+}
+
+.yolk-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: rgb(40, 40, 40);
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.yolk-box i {
+    font-size: 210px;
+    transition: 600ms ease-in-out;
+
+    z-index: 2;
+}
+
+.yolk-box i:hover {
+    cursor: pointer;
+    opacity: 0;
+}
+
+.petal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+
+    transition: 500ms ease-in-out;
+
+    z-index: 1;
+}
+
+.petal i {
+    font-size: 60px;
+    opacity: 0.25;
+}
+
+.petal:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+
+.petal p {
+    width: 120px;
+    /* background-color: aquamarine; */
+    font-family: 'Gowun Dodum', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.white_00 {
+    bottom :250px;
+    left: 240px;
+
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: gold;
+    /* background-color: #578390; */
+    width: 120px;
+    height: auto;
+    /* border-radius: 100px; */
+}
+
+.white_01 {
+    bottom: 350px;
+    right: 120px;  
+}
+
+.white_02 {
+    bottom: 200px;
+    right: 30px;
+}
+
+.white_03 {
+    bottom: 50px;
+    right: 120px;
+}
+
+.white_04 {
+    bottom: 50px;
+    left: 120px;
+}
+
+.white_05 {
+    bottom: 200px;
+    left: 30px;
+}
+
+.white_06 {
+    bottom :350px;
+    left: 120px;
+}
